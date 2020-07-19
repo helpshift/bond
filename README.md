@@ -1,7 +1,7 @@
 # Bond
 
 Bond is a spying and stubbing library, primarily intended for tests. This is a forked version from https://github.com/circleci/bond/ with support for
-per-thread stubbing and spying. The project version of this is "<circle-ci-bond-base>.<forked-version>".
+per-thread stubbing and spying. The project version of this is "circle-ci-bond-base.forked-version". Based off of: https://github.com/circleci/bond/pull/47
 
 ```clojure
 [mourjo/bond "0.3.2.0.1.0"]
