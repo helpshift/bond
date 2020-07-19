@@ -138,11 +138,11 @@ can be used aside from the rest of the bond library as well.
 
 # Notes
 
-The local* functions work with Clojure's `binding` conveyance, so if the body of the redefinition goes beyond Clojure threads, like
+- The local* functions only work on Clojure and not (yet) on Clojurescript.
+- The local* functions work with Clojure's `binding` conveyance, so if the body of the redefinition goes beyond Clojure threads, like
 say, a java.lang.Thread, then the binding conveyance will not work and the redefined definition will not be seen by the thread nor
 will the counts to those functions from that thread be correct.
-
-The local* functions only support redefinition/spying of functions for now. As a future todo, we plan to add support for vars along with functions.
+- The local* functions only support redefinition/spying of functions for now. As a future todo, we plan to add support for vars along with functions.
 
 # License
 
