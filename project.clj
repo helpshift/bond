@@ -2,7 +2,10 @@
 ;;                                 0.3.2.0.1.0
 ;; This is forked off circleci/bond 0.3.2
 (defproject mourjo/bond "0.3.2.0.1.0"
+  :github "https://github.com/mourjo/bond"
   :description "Spying library for testing"
+  :url "https://github.com/mourjo/bond"
+  :deploy-repositories {"releases" {:url "https://repo.clojars.org" :creds :gpg}}
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies []
