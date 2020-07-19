@@ -1,4 +1,7 @@
-(defproject circleci/bond "0.3.2"
+;; Version number: <circle-ci-bond-base>.<forked-version>
+;;                                 0.3.2.0.1.0
+;; This is forked off circleci/bond 0.3.2
+(defproject mourjo/bond "0.3.2.0.1.0"
   :description "Spying library for testing"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
