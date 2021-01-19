@@ -1,10 +1,10 @@
 ;; Version number: <circle-ci-bond-base>.<forked-version>
-;;                                 0.3.2.0.1.0
-;; This is forked off circleci/bond 0.3.2
-(defproject mourjo/bond "0.3.2.0.1.0"
-  :github "https://github.com/mourjo/bond"
+;;                                 0.4.0.0.1.0
+;; This is forked off circleci/bond 0.4.0
+(defproject helpshift/bond "0.4.0.0.1.0"
+  :github "https://github.com/helpshift/bond"
   :description "Spying library for testing"
-  :url "https://github.com/mourjo/bond"
+  :url "https://github.com/helpshift/bond"
   :deploy-repositories {"releases" {:url "https://repo.clojars.org" :creds :gpg}}
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
